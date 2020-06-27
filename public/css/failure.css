@@ -1,0 +1,21 @@
+body{
+	
+	background-color: #00BFFF;
+
+}
+
+section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	flex-flow: column;
+}
+
+
+h1{
+	font-size: 25px;
+	font-family: "Lato",sans-serif;
+	color:red;
+	font-weight: 500;
+}
