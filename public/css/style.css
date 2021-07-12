@@ -54,6 +54,10 @@ body{
 	text-align: center;
 	height:250px;
 	transition:all 0.95s;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 .wrap h1{
 	font-family: "Montserrat-Black";
@@ -71,7 +75,7 @@ body{
 	padding:5px;
 }
 .content{
-	margin:30px;
+	margin:0px 30px;
 }
 .content input{
 	display: block;
@@ -104,7 +108,7 @@ a{
 .btn{
 	width:50%;
 	margin:  20px auto;
-	
+	padding:10px;	
 }
 .btn span{
 	position: relative;
@@ -217,13 +221,17 @@ label{
 }
 
 .btn{
-	padding:7px;
+	padding:10px;
 	color:#fff;
 	background-color: black;
 	display: inline-block;
 	position: relative;
 	cursor: pointer;
 	outline: none;
+	border:none;
+	outline: none;
+	border-radius: 50px;
+	width: 120px;
 }
 
 .btn:hover{
