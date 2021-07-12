@@ -214,7 +214,6 @@ small{
 label{
 	font-family:"Roboto",sans-serif;
 	display: inline-block;
-	background-image: linear-gradient(to right,#00bfff,#003366);
 	color:transparent;
 	font-weight: 600;
 }
